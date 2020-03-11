@@ -12,8 +12,7 @@ https://github.com/rails/sprockets/blob/master/guides/extending_sprockets.md#sup
  (called from block (2 levels) in <class:Railtie> at /usr/local/lib/ruby/gems/2.6.0/gems/sass-rails-5.0.5/lib/sass/rails/railtie.rb:58)
 Using the default profile...
 Feature: create a new movie in records
-  As a user
-  I can add new movie if i want to create a new movie in records
+  As a user I can add new movie if i want to create a new movie in records
 
   Background: movies in database      # features/create.feature:7
     Given the following movies exist: # features/step_definitions/movies_steps.rb:2
@@ -37,8 +36,7 @@ Feature: create a new movie in records
     And I should see "2014-11-07"                              # features/step_definitions/web_steps.rb:105
 
 Feature: destroy a movie
-  As a user
-  I can delete a movie if I want to delete a movie in records
+  As a user I can delete a movie if I want to delete a movie in records
 
   Background: movies in database      # features/destroy.feature:7
     Given the following movies exist: # features/step_definitions/movies_steps.rb:2

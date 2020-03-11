@@ -1,8 +1,6 @@
 Feature: display list of movies sorted by different criteria
- 
-  As an avid moviegoer
-  So that I can quickly browse movies based on my preferences
-  I want to see movies sorted by title or release date
+
+  As an avid moviegoer, i can quickly browse movies based on my preferences if i want to see movies sorted by title or release date
 
 Background: movies have been added to database
   
