@@ -1,0 +1,18 @@
+/usr/local/lib/ruby/gems/2.6.0/gems/activesupport-4.2.10/lib/active_support/core_ext/object/duplicable.rb:111: warning: BigDecimal.new is deprecated; use BigDecimal() method instead.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <top (required)> at /Users/charles/Dropbox/Course_Fall2019/606/hw3/hw-acceptance-unit-test-cycle/rottenpotatoes/config/application.rb:12)
+DEPRECATION WARNING: Sprockets method `register_engine` is deprecated.
+Please register a mime type using `register_mime_type` then
+use `register_compressor` or `register_transformer`.
+https://github.com/rails/sprockets/blob/master/guides/extending_sprockets.md#supporting-all-versions-of-sprockets-in-processors
+ (called from block (2 levels) in <class:Railtie> at /usr/local/lib/ruby/gems/2.6.0/gems/sass-rails-5.0.5/lib/sass/rails/railtie.rb:57)
+DEPRECATION WARNING: Sprockets method `register_engine` is deprecated.
+Please register a mime type using `register_mime_type` then
+use `register_compressor` or `register_transformer`.
+https://github.com/rails/sprockets/blob/master/guides/extending_sprockets.md#supporting-all-versions-of-sprockets-in-processors
+ (called from block (2 levels) in <class:Railtie> at /usr/local/lib/ruby/gems/2.6.0/gems/sass-rails-5.0.5/lib/sass/rails/railtie.rb:58)
+..............
+
+Finished in 0.11094 seconds (files took 2.02 seconds to load)
+14 examples, 0 failures
+
+Coverage report generated for RSpec to /Users/charles/Dropbox/Course_Fall2019/606/hw3/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 56 / 60 LOC (93.33%) covered.
